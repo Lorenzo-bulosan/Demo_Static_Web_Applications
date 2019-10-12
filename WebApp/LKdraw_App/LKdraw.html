@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>LKdraw || Lorenzo Bulosan </title>
+
+
+	<meta charset="utf-8">
+	<meta name="author" content="Lorenzo Bulosan">
+	<meta name="description" content="Test your caligraphy and challenge my trained AI model to recognize your handwritten numbers! ">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!----------------Frameworks---------------->
+
+	<!--jquery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!--bootstrap-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+	<!----------------Stylesheet---------------->
+	<link rel="stylesheet" href="../../Stylesheets/LKdraw.css">
+
+	<!--google fonts-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web">
+
+	<!--awesome icons-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+
+<body>
+
+<!----------------Header---------------->
+
+		<!--Navigation bar-->
+		<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+		
+			<!--Logo + button for when small-->
+			<div class="navbar-header">
+				
+				<a href="../../index.html" class="navbar-brand">LK</a>
+
+				<button type="button" class="navbar-toggler" data-toggle="collapse" target-data="#More_Menu">
+					<span class="navbar-toggler-icon"></span> <!--hamburguer-->
+				</button>
+			</div>
+			
+
+			<!--All elements that will be withing the button-->
+			<div class="collapse navbar-collapse" id="More_Menu">
+				<ul class="navbar-nav" ml-auto>
+
+					<!--Links to other pages-->
+					<li class="nav-item">
+						<a href="#" class="nav-link">About</a>
+					</li>
+						
+					<li class="nav-item">
+						<a href="#" class="nav-link">Projects</a>
+					</li>
+
+					<li class="nav-item">
+						<a href="#" class="nav-link">Contact</a>
+					</li>
+
+					<!--dropdown menu-->
+					<li class="nav-item dropdown">
+						<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+							More
+						</a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#">Self-Learning</a></li>
+							<li>
+								<a target="_blank" href="../LKnote_App/LKnote.html">LKnotes app</a>
+							</li>
+							<li>
+								<a target="_blank" href="WebApp/LKdraw_App/LKdraw.html">LKdraw app</a>
+							</li>
+						</ul>
+			        </li>				
+				</ul>
+			</div>	
+		
+		
+		</nav> <!--end navigation-->
+
+
+<!---------------Main body-------------->
+<section class="container-fluid Main">
+
+	<!--First Stripe-->
+	<div class="row">
+		<h1 class="pageTitle">LKdraw</h1>
+	</div>
+
+	<div class="row mainbody">
+
+		<div class="col-2"></div>
+
+		<div class="col-8 drawingSpace">
+			<canvas id="drawPixel" class="canvasSpace" width="490" height="385"></canvas>
+		</div>
+
+		<div class="col-2">			
+
+
+		</div>
+
+	</div>
+
+	<div class="row ResultContainer">
+		<h2 class="ResultTitle">Result</h2>
+
+		<div class="ResultDisplay">
+			<p id="result">It's 6</p>
+		</div>			
+
+		<div class="ButtonsSection">
+			<button type="button" class="btn btn-success " id="btnRecognize"> 
+				<p class="Regular">Recognize</p> 
+			</button>
+
+			<button type="button" class="btn btn-danger" id="btnDelete"> 
+				<p class="Regular">Delete</p> 
+			</button>
+
+			<button type="button" class="btn btn-light" id="btnSave"> 
+				<p class="Regular">Save</p> 
+			</button>
+		</div>
+	</div>
+
+</section>
+
+<!----------------Footer---------------->
+<section class="footer">
+	<div class="bg-dark">
+		<h1>Footer</h1>
+	</div>
+	
+</section>
+
+<!----------------Js---------------->
+
+	<!--own js-->
+	<script src="draw.js"></script>
+	<script src="CNN.js"></script>
+
+	<!--BootsTrap-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

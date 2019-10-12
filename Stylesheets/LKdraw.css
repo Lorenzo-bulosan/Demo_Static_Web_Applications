@@ -1,0 +1,95 @@
+
+
+.Main{
+	border: 3px solid;
+	border-color: black;
+	background-image: url("../Material/Images/LandingImage_LKdraw.jpg");
+
+}
+
+.pageTitle{
+	width: 100%;
+	text-align: center;
+}
+
+.mainbody{
+	margin: auto;
+	width: 90%;
+	height: 25em;
+
+	text-align: center;
+}
+
+.col-8{
+	width: 100%;
+	height:100%;
+}
+
+.drawingSpace{
+	border-radius: 10%;
+	/*background-color: white;*/
+}
+
+canvas{
+	position: relative;
+	background-color: white;
+	border-radius: 10%;
+
+	border: 4px solid;
+	border-color: black;
+}
+
+.btn{
+	position: relative;
+	margin: auto;
+
+	height: 3em;
+	width: 7em ;
+
+	border: 3px solid;
+	border-color: black;
+}
+
+.ResultContainer{
+	position: relative;
+	margin: auto;
+	height: 26em;
+	width:490px;
+
+}
+
+.ResultTitle{
+	position: relative;
+
+	color: white;
+
+	width: 100%;
+	height: 10%;
+
+	border-bottom: 4px solid;
+	border-bottom-color: black;
+
+}
+
+.ResultDisplay{
+	position: relative;
+
+	background-color: white;
+
+	width: 100%;
+	height: 25%;
+
+	top:-4.5em;
+}
+
+.ButtonsSection{
+
+	position: relative;
+
+	display: flex;
+	margin: auto;
+
+	top:-40%;
+	width: 100%;
+
+}
