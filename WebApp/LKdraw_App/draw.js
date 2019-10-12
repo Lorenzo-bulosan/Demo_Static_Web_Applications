@@ -47,7 +47,7 @@ window.addEventListener("load",()=>{
 	drawingSpace.addEventListener("mousemove", Draw);
 	deleteElement.addEventListener("click",Delete);
 
-	resultElement.innerHTML="Working till here";
+	resultElement.innerHTML="This is just a demo, the Recognize and Save button not in use due to the lack of server";
 
 })
 
