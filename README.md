@@ -1,2 +1,7 @@
 # StaticWebApps.github.io
-The purpose of this repository is to showcase the 'FullStack' repository but as the name suggests without it's backend and databases.  This is due to a lack of servers or money for renting one online.
+
+Consist of a demo of Static Web Apps and a main page.
+
+Drawing App:https://lorenzo-bulosan.github.io/StaticWebApps.github.io/WebApp/LKdraw_App/LKdraw.html
+To do App: https://lorenzo-bulosan.github.io/StaticWebApps.github.io/WebApp/LKnote_App/LKnote.html
+Main page: https://lorenzo-bulosan.github.io/StaticWebApps.github.io/index.html
