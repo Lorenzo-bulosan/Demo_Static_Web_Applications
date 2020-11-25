@@ -1,4 +1,4 @@
-# StaticWebApps.github.io
+# Web Apps Demo
 
 Consist of a DEMOS of web applications hosted on github, that are meant to be used along with a server.
 
